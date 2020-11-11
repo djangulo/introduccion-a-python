@@ -377,7 +377,6 @@ Lo que se llama un "script" no es mas que una serie de instrucciones en secuenci
 
 Abra su editor favorito, cree un archivo nuevo llamado `tarjeta.py` e ingrese el código siguiente:
 
-
 ```python
 #!/usr/bin/python3
 
@@ -391,30 +390,6 @@ Edad:      {}
 Profesión: {}
 """.format(nombre, edad, profesion))
 ```
-
-
-    ---------------------------------------------------------------------------
-
-    StdinNotImplementedError                  Traceback (most recent call last)
-
-    <ipython-input-3-231905278a0e> in <module>
-          1 #!/usr/bin/python3
-          2 
-    ----> 3 nombre = input("Ingrese su nombre: ")
-          4 edad = input("Ingrese su edad: ")
-          5 profesion = input("Ingrese su profesión: ")
-
-
-    ~/go/src/github.com/djangulo/introducción-a-python/.env/lib/python3.8/site-packages/ipykernel/kernelbase.py in raw_input(self, prompt)
-        851         """
-        852         if not self._allow_stdin:
-    --> 853             raise StdinNotImplementedError(
-        854                 "raw_input was called, but this frontend does not support input requests."
-        855             )
-
-
-    StdinNotImplementedError: raw_input was called, but this frontend does not support input requests.
-
 
 Vamos a desglosar linea por linea:
 
