@@ -1,0 +1,17 @@
+
+
+*/*.pyc
+
+.env
+
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+
+.vscode
+*/__pycache__
+__pycache__
+
+!plano.py
+leccion_*/leccion_*.py
+!leccion_*/leccion_*_test.py
