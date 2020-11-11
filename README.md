@@ -6,7 +6,7 @@ No requiere de conocimientos previos de programación.
 
 ## Contenidos (sujeto a cambiar según se completen):
 
-- [L0: ¿Qué es python?, intérprete, I/O, uso de archivos `.py`](https://github.com/djangulo/introduccion-a-python/tree/main/leccion_0)
+- [L0: ¿Qué es python y para qué sirve?, instalación, intérprete, I/O, uso de archivos `.py`](https://github.com/djangulo/introduccion-a-python/tree/main/leccion_0)
 - L1: Literales, variables, errores, y comentarios.
 - L2: Funciones, conversion de tipos, manipulacion de strings y numeros.
 - L3: Control de flujo (boolean logic, if, loops).
