@@ -2,7 +2,8 @@ Bienvenidos a la introducción a python.
 
 A lo largo de este curso aprenderán a utilizar el versátil y poderoso lenguaje de programación Python: su sintaxis, utilidades, modos de operación, entre otros.
 
-En esta lección introductioria, veremos:
+En esta lección introductoria, veremos:
+
 - [¿Qué es Python?](#what-is-python)
 - [¿Qué puedo lograr con Python?](#what-can-i-do-with-python)
 - [Instalación](#python-installation)
@@ -17,7 +18,7 @@ Python esta diseñado para ser legible, con un fuerte enfoque en productividad. 
 
 Python es usado para un sinnúmero de aplicaciones. Debajo solo algunas menciones que les serán familiares:
 
-* Youtube estuvo en un momento, escrito mayormente en python.
+* Youtube, estuvo en un momento, escrito mayormente en python.
 * Dropbox, la compañía de almacenaje en la nube, esta hecho con python.
 * EVE Online, un juego en línea, multijugador, esta escrito en una versión modificada de python.
 * En la industria de cine, Industrial Light & Magic, Pixar, Dreamworks, todos usan python en alguna parte de su proceso de producción.
@@ -77,12 +78,13 @@ if __name__ == "__main__":
     1c7a:0603	/dev/bus/usb/002/003	LighTuning Technology Inc. ES603 Swipe Fingerprint Sensor
     046d:c534	/dev/bus/usb/002/002	Logitech, Inc. Unifying Receiver
     5986:055c	/dev/bus/usb/002/005	Acer, Inc BisonCam, NB Pro
+    046d:0825	/dev/bus/usb/002/006	Logitech, Inc. Webcam C270
     1d6b:0002	/dev/bus/usb/002/001	Linux Foundation 2.0 root hub
 
 
 ## Interfaces de usuario
 
-La librería estándar de Python cuenta con una librería de interfaz de usuario, llamada `tkinter`, que a su vez no es más que un interfaz con una extensa libreria llamada <a rel="noopener noreferrer" target="_blakn" href="https://www.tcl.tk/">`TK`</a>.
+La librería estándar de Python cuenta con una librería de interfaz de usuario, llamada `tkinter`, que a su vez no es más que un interfaz con una extensa librería llamada <a rel="noopener noreferrer" target="_blakn" href="https://www.tcl.tk/">`TK`</a>.
 
 Tkinter corre sin importar el sistema operativo, ya que el mismo no es más que un iterfaz a utilidades nativas.
 
@@ -353,7 +355,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> 
 ```
 
-En el ejemplo anterior, usamos la funcion nativa `input` para capturar texto del usuario. Esta función guarda su resultado en la variable `respuesta` que creamos a la izquierda.
+En el ejemplo anterior, usamos la función nativa `input` para capturar texto del usuario. Esta función guarda su resultado en la variable `respuesta` que creamos a la izquierda.
 
 Una variable, al igual que en matemáticas, es objeto cuyo valor puede ser cualquier cosa. En este caso, es el `string` que uno le escribe como respuesta al programa.
 
@@ -373,7 +375,7 @@ El intérprete es util para experimentar y evaluar valores en vivo. Sin embargo,
 
 # Scripts<a name="scripts"></a>
 
-Lo que se llama un "script" no es mas que una serie de instrucciones en secuencia, las cuales serán ejecutadas por `python` al llamar el archivo.
+Lo que se llama un "script" no es más que una serie de instrucciones en secuencia, las cuales serán ejecutadas por `python` al llamar el archivo.
 
 Abra su editor favorito, cree un archivo nuevo llamado `tarjeta.py` e ingrese el código siguiente:
 
@@ -426,4 +428,4 @@ Las líneas 3-5 declaran variables, que capturan la información escrita por el 
 
 Las líneas 7-11 ejecutan un comando de impresión y formato. En `python`, los `str`ings representan cadenas de caracteres: texto, en español. Un string en `python` se puede ingresar entre comillas simples `'texto'`, comillas dobles `"texto"`. Se puedes usar comillas triples (`"""texto"""` o `'''texto'''`) para escribir `str`ings de múltiples líneas.
 
-Las llaves (`{}`) le indican al método `format` donde colocar sus argumentos, y usan lo que se conoce como interpoación para popular la "plantilla".
+Las llaves (`{}`) le indican al método `format` donde colocar sus argumentos, y usan lo que se conoce como interpolación para popular la "plantilla".
